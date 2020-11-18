@@ -1,0 +1,88 @@
+# From https://github.com/Danimoth/gitattributes/blob/master/Web.gitattributes
+
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+#
+# The above will handle all files NOT found below
+#
+
+#
+## These files are text and should be normalized (Convert crlf => lf)
+#
+
+# source code
+.csslintrc text
+.editorconfig text
+.gitattributes text
+.gitconfig text
+.gitignore text
+.htaccess text
+.jscsrc text
+.jshintignore text
+.jshintrc text
+*.bat text
+*.bowerrc text
+*.coffee text
+*.css text
+*.dot text
+*.ejs text
+*.haml text
+*.hbs text
+*.hbt text
+*.htm text
+*.html text
+*.inc text
+*.ini text
+*.jade text
+*.java text
+*.js text
+*.json text
+*.less text
+*.md text
+*.npmignore text
+*.php text
+*.phtml text
+*.pl text
+*.properties text
+*.py text
+*.rb text
+*.sass text
+*.scm text
+*.scss text
+*.sh text
+*.sql text
+*.styl text
+*.svg text
+*.tmpl text
+*.txt text
+*.xml text
+*.yaml text
+*.yml text
+
+
+#
+## These files are binary and should be left untouched
+#
+
+# (binary is a macro for -text -diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.flv binary
+*.fla binary
+*.swf binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.eot binary
+*.woff binary
+*.pyc binary
+*.pdf binary

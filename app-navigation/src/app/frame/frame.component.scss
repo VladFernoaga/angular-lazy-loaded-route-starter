@@ -1,0 +1,16 @@
+.frame-container {
+  display: grid;
+  grid-template-rows: 80px auto;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  background-color: #e1e1e1;
+}
