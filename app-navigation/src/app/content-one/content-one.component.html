@@ -1,11 +1,11 @@
-<div>
-  Content one
-
-  <div class="disply">The display</div>
-  <button [routerLink]="'element-one'">Show detail</button>
-
-  <div>
-    Detail
+<div class="d-flex justify-content-between" style="height: 100%">
+  <div class="content m-3">
+    <p>Content one display</p>
+    <button [routerLink]="'element-one'" class="btn-secondary">
+      Show detail
+    </button>
+  </div>
+  <div class="detail">
     <router-outlet></router-outlet>
   </div>
 </div>

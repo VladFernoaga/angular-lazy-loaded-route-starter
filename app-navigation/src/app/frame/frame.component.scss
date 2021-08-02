@@ -1,9 +1,14 @@
 .frame-container {
   display: grid;
   grid-template-rows: 80px auto;
+  height: 100%;
+  width: 100%;
 }
-
+.top-nav-container {
+  background-color: gray;
+}
 .content-container {
+  height: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -11,6 +16,10 @@
 .side-nav {
   display: flex;
   flex-direction: column;
-  width: 80px;
+  width: 200px;
   background-color: #e1e1e1;
+}
+.content {
+  height: 100%;
+  width: 100%;
 }
