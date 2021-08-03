@@ -1,4 +1,4 @@
-# Two layer master - detail navigation using Angular children routes
+# Two level master - detail navigation using Angular children routes
 
 ## Description
 
